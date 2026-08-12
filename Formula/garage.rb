@@ -1,15 +1,15 @@
 class Garage < Formula
   desc "A keyboard-driven macOS TUI cockpit for your dev projects."
   homepage "https://github.com/dulguun-tuguldur/garage"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/dulguun-tuguldur/garage/releases/download/v0.1.2/garage-aarch64-apple-darwin.tar.xz"
-      sha256 "b84d6b0a10e4364f27e569852e959a76c2007ff6d2b6e744e6aa239ddb64d154"
+      url "https://github.com/dulguun-tuguldur/garage/releases/download/v0.1.3/garage-aarch64-apple-darwin.tar.xz"
+      sha256 "6736c29af304bf2079497cdd6784e0ee340ad2ade210e7064b37f353813176c2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/dulguun-tuguldur/garage/releases/download/v0.1.2/garage-x86_64-apple-darwin.tar.xz"
-      sha256 "cea39914b9955c6492fe13eca54ef64c37c95f7147080870ba5d12a05f306aba"
+      url "https://github.com/dulguun-tuguldur/garage/releases/download/v0.1.3/garage-x86_64-apple-darwin.tar.xz"
+      sha256 "9021811a273b640dedceeafb88ef2f80d76fd4555db00a2aa2666c7bf1e21438"
     end
   end
   license "MIT"
