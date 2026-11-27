@@ -1,6 +1,6 @@
 cask "claude-monitor" do
-  version "1.2.0"
-  sha256 "761571fd2968ac0404626d3fff77f541a32c65767cf9d1f2504d57c0312ceb94"
+  version "1.3.0"
+  sha256 "fdceffeb3ff4c598804dcc78114788394af8d34e4fea1aafc19766d7841a2c71"
 
   url "https://github.com/dulguun-tuguldur/claude-monitor/releases/download/v#{version}/ClaudeMonitor-#{version}.zip"
   name "Claude Monitor"
